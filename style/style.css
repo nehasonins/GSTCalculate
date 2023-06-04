@@ -1,0 +1,36 @@
+body {
+    background-image:url(wall.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+    background-attachment:fixed ;
+    background-position: center;
+
+ text-align:center
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .input-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .input-group input {
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  #result-with-gst {
+    font-size: 16px;
+  }
+
+  #result {
+    font-size: 22px;
+    font-weight: bold;
+  }
